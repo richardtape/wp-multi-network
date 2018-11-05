@@ -38,7 +38,8 @@ class WP_MS_Networks_Admin {
 		add_action( 'network_admin_menu', array( $this, 'network_admin_menu' ) );
 		add_action( 'network_admin_menu', array( $this, 'network_admin_menu_separator' ) );
 
-		add_action( 'admin_init', array( $this, 'route_save_handlers' ) );
+		// Temp
+		// add_action( 'admin_init', array( $this, 'route_save_handlers' ) );
 
 		add_action( 'network_admin_notices', array( $this, 'network_admin_notices' ) );
 
